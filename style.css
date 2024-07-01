@@ -1,0 +1,117 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 1920px;
+  height: 1080px;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* container1 */
+.container1 {
+  width: 600px;
+  height: 305px;
+  background-color: #ffffff;
+  margin: 103px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+h1 {
+  font-size: 16px;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.receptai {
+  display: flex;
+  flex-direction: row;
+}
+
+.receptas1,
+.receptas2,
+.receptas3 {
+  position: relative;
+  width: 133px;
+  height: 214px;
+  margin-left: 30px;
+  margin-top: 5px;
+  border: 1px solid #e6e6e6;
+  color: black;
+  text-decoration: none;
+}
+.receptas1:hover,
+.receptas2:hover,
+.receptas3:hover {
+  box-shadow: 0px 0px 4px 0px #b5b5b5;
+}
+.receptas.active{
+    box-shadow: 0px 0px 4px 0px #b5b5b5;
+}
+.receptas1 p,
+.receptas2 p,
+.receptas3 p {
+  width: 116px;
+  height: 77px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+#mark1, #mark2, #mark3 {
+  position: absolute;
+  left: 115px;
+  top: -10px;
+  display: none;
+}
+
+
+/* container2 */
+
+.container2 {
+  width: 600px;
+  height: 112px;
+  background-color: #ffffff;
+  margin-bottom: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#slider {
+  margin-left: 30px;
+  width: 216px;
+  height: 1.5px;
+}
+#num {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+}
+
+/* container3 */
+
+.container3 {
+  width: 600px;
+  height: 159px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.priedai {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  margin-left: 30px;
+  padding-top: 10px;
+  line-height: 0.5px;
+}
